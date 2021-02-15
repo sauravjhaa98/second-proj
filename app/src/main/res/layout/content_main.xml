@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.navidemo.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:background="@drawable/cosmoyoga"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME THERE!"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO THE CLINIC!"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy1"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="Cosmo yoga world clinic is based on concept of enhancement of beauty with yoga, lifestyle management and aesthetics. Yoga will help in transforming your body, mind, soul and our experts will help you compliment it with glowing skin and refreshed face by taking advantage of the various aesthetic services we offer.
+On combining yoga and aesthetics we can help you achieve the body you deserve and have a positive body image.
+In cosmo yoga world clinic we provide you wide range of yoga classes for fitness, for various ailments, toning of body along with required modification in diet and lifestyle.
+Our aesthetics zone handles a wide range of state-of-the-art services related to skin, face and numerous hair problems. Our modern age defying techniques will help you go home satisfied with who you are."
+
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy2"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEET OUR EXPERTS"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#FF4081"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUR TEAMS"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="38dp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy4"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy3"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUR WORKS"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#FF4081"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEFORE AND AFTER GALLERY"
+            android:textStyle="bold"
+            android:textSize="38dp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Before:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#FF4081"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy5"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#FF4081"/>
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/csmy6"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</LinearLayout>

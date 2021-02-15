@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.navidemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cosmoyoga"
+        android:label="Cosmo"
+        android:roundIcon="@mipmap/cosmoyoga"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BookedData"></activity>
+        <activity
+            android:name=".Appointment_page"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Appointment_Details" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Cosmo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Services" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Booking_Acknowledgement" />
+        <activity android:name=".Forgot_password" />
+        <activity
+            android:name=".Bookappointment"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignupActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".Home"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
